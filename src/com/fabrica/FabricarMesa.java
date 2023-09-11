@@ -1,10 +1,10 @@
 package com.fabrica;
 
-public class FabricarMesa extends Fabrica{
+public class FabricarMesa extends Factory{
 
 	@Override
-	public void FabricarMueble() {
-		// TODO Auto-generated method stub
+	public Producto armarMueble(){
+		
 		return new Mesa();
 	}
 
